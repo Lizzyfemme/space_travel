@@ -1,3 +1,21 @@
+:root {
+  --dark-text: #0b2641;
+}
+html {
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+
 h1 {
-  color: green;
+  color: var(--dark-text);
+}
+#moon_over_earth {
+  background-image: url(./asset/moon_over_earth.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100vw;
+  height: 400px;
 }
