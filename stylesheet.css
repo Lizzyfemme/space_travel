@@ -1,11 +1,14 @@
 :root {
   --dark-text: #0b2641;
+  --bg: #a6c0d7;
 }
 html {
   margin: 0px;
 }
 body {
   margin: 0px;
+  font-family: Montserrat;
+  background-color: var(--bg);
 }
 
 h1 {
@@ -18,4 +21,12 @@ h1 {
   background-size: cover;
   width: 100vw;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+#moon_over_earth h1 {
+  font-weight: lighter;
+  text-transform: capitalize;
 }
