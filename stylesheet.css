@@ -1,6 +1,8 @@
 :root {
   --dark-text: #0b2641;
-  --bg: #a6c0d7;
+  --bg: #ffffff;
+  --accent: #3879c1;
+  --highlight: #a6c0d7;
 }
 html {
   margin: 0px;
@@ -15,18 +17,13 @@ h1 {
   color: var(--dark-text);
 }
 #moon_over_earth {
-  background-image: url(./asset/moon_over_earth.png);
+  background-image: url(./asset/space-travel.png);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
-  width: 100vw;
-  height: 400px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-}
-#moon_over_earth h1 {
-  font-weight: lighter;
-  text-transform: capitalize;
 }
