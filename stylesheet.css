@@ -6,6 +6,7 @@
 }
 html {
   margin: 0px;
+  width: 100vw;
 }
 body {
   margin: 0px;
@@ -15,8 +16,10 @@ body {
 
 h1 {
   color: var(--dark-text);
+  text-transform: capitalize;
 }
-#moon_over_earth {
+
+#space-travel {
   background-image: url(./asset/space-travel.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -26,4 +29,50 @@ h1 {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+}
+article {
+  display: flex;
+  flex-direction: column;
+}
+.persona header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 600px;
+}
+.persona header h2 {
+  font-weight: normal;
+  background-color: var(--accent);
+  opacity: 50%;
+  color: var(--dark-text);
+}
+.persona header h2 span {
+  font-weight: bold;
+}
+.about {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+.age {
+  height: 15px;
+  width: 15px;
+}
+#freedom-frank {
+  background-image: url(./asset/freedom-frank.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#astronaut-allen {
+  background-image: url(./asset/astronaut-allen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#trendy-tracey {
+  background-image: url(./asset/trendy-tracey.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
