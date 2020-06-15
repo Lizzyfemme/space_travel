@@ -50,3 +50,7 @@ Implement an employee feedback system by October 1
 # Photos
 
 [Unsplash](https://unsplash.com/)
+
+# Icons
+
+[The noun project](https://thenounproject.com/)
