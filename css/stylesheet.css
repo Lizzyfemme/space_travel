@@ -30,7 +30,7 @@ p {
 }
 
 #space-travel {
-  background-image: url(./asset/space-travel.png);
+  background-image: url(../asset/space-travel.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -44,6 +44,7 @@ article {
   display: flex;
   flex-direction: column;
 }
+
 .persona header {
   display: flex;
   flex-direction: column;
@@ -126,16 +127,16 @@ q::after {
   justify-self: center;
 }
 #freedom-frank {
-  background-image: url(./asset/freedom-frank.png);
+  background-image: url(../asset/freedom-frank.png);
 }
 #astronaut-allen {
-  background-image: url(./asset/astronaut-allen.png);
+  background-image: url(../asset/astronaut-allen.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #trendy-tracey {
-  background-image: url(./asset/trendy-tracey.png);
+  background-image: url(../asset/trendy-tracey.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -158,6 +159,10 @@ q::after {
   color: var(--highlight);
 }
 .age {
+  height: 15px;
+  width: 15px;
+}
+.location {
   height: 15px;
   width: 15px;
 }
