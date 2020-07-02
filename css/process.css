@@ -3,11 +3,23 @@
   max-width: 500px;
   margin: 20px;
 }
+#process-heading {
+  color: var(--accent);
+  margin: 10px;
+}
+#process-heading span {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+#process h2 {
+  color: var(--accent);
+}
 
 #process div {
   font-size: 1em;
   line-height: 1.75em;
-  border-top: 3px solid var(--accent);
+  border-top: 3px solid var(--highlight);
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
@@ -24,15 +36,16 @@
   padding: 10px;
   height: 1.25em;
   width: 1.25em;
-  background-color: var(--dark-text);
+  background-color: var(--highlight);
   text-align: center;
   line-height: 1.25em;
   color: var(--bg);
+  font-weight: bold;
   font-size: 1em;
 }
 /* //odd number borders */
 #process div:nth-child(odd) {
-  border-right: 3px solid;
+  border-right: 3px solid var(--highlight);
   padding-left: 0;
 }
 #process div:nth-child(odd)::before {
@@ -41,7 +54,7 @@
 }
 /* //even number borders */
 #process div:nth-child(even) {
-  border-left: 3px solid;
+  border-left: 3px solid var(--highlight);
   padding-right: 0;
 }
 #process div:nth-child(even)::before {
