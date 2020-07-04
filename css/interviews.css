@@ -1,0 +1,56 @@
+.interview-image {
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid var(--bg);
+  margin-bottom: 10px;
+}
+#allen-interview {
+  background-image: url(../asset/allen-square.png);
+}
+#frank-interview {
+  background-image: url(../asset/frank-square.png);
+}
+#tracey-interview {
+  background-image: url(../asset/tracey-square.png);
+}
+
+#interviews_container {
+  background-color: var(--highlight);
+  margin-top: 10px;
+}
+
+#interviews {
+  background-color: var(--highlight);
+}
+#interviews div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#interviews h2 {
+  color: var(--bg);
+
+  font-size: 300px;
+  font-weight: bold;
+  margin: 0px;
+}
+#interviews h3 {
+  color: var(--accent);
+  font-size: 35px;
+  margin: 0;
+}
+#interviews h3 span {
+  font-weight: normal;
+}
+#interviews h4 {
+  font-weight: normal;
+  font-size: 30px;
+  color: var(--accent);
+  margin-top: 0;
+}

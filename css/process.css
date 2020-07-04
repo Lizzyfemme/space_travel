@@ -3,10 +3,7 @@
   max-width: 500px;
   margin: 20px;
 }
-#process-heading {
-  color: var(--accent);
-  margin: 10px;
-}
+
 #process-heading span {
   color: var(--accent);
   font-weight: bold;
@@ -14,6 +11,9 @@
 
 #process h2 {
   color: var(--accent);
+}
+#process ul li {
+  text-decoration-color: var(--hightlight);
 }
 
 #process div {

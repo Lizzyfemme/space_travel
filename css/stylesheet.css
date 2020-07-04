@@ -29,6 +29,20 @@ p {
   line-height: 1.5;
 }
 
+ul {
+  list-style: none;
+  line-height: 1.5;
+}
+
+ul li::before {
+  content: "\2022";
+  color: var(--highlight);
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 #space-travel {
   background-image: url(../asset/space-travel.png);
   background-repeat: no-repeat;
@@ -55,19 +69,7 @@ article {
   margin: 0 15px 0;
   color: var(--accent);
 }
-.persona ul {
-  list-style: none;
-  line-height: 1.5;
-}
 
-.persona ul li::before {
-  content: "\2022";
-  color: var(--highlight);
-  font-weight: bolder;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
 .persona-image {
   height: 600px;
   background-repeat: no-repeat;
@@ -165,4 +167,20 @@ q::after {
 .location {
   height: 15px;
   width: 15px;
+}
+.white-bg-header-1 {
+  color: var(--accent);
+  margin: 10px;
+}
+.highlight-bg-header-1 {
+  background-color: var(--highlight);
+  color: var(--bg);
+  margin: 0;
+  padding: 20px 10px 20px;
+}
+.accent-bg-header-1 {
+  background-color: var(--accent);
+  color: var(--bg);
+  margin: 0;
+  padding: 20px 10px 20px;
 }
