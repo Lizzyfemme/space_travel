@@ -19,7 +19,7 @@
 #process div {
   font-size: 1em;
   line-height: 1.75em;
-  border-top: 3px solid var(--highlight);
+  border-top: 3px dashed var(--highlight);
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
@@ -45,7 +45,7 @@
 }
 /* //odd number borders */
 #process div:nth-child(odd) {
-  border-right: 3px solid var(--highlight);
+  border-right: 3px dashed var(--highlight);
   padding-left: 0;
 }
 #process div:nth-child(odd)::before {
@@ -54,7 +54,7 @@
 }
 /* //even number borders */
 #process div:nth-child(even) {
-  border-left: 3px solid var(--highlight);
+  border-left: 3px dashed var(--highlight);
   padding-right: 0;
 }
 #process div:nth-child(even)::before {

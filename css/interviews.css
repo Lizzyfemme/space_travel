@@ -54,3 +54,10 @@
   color: var(--accent);
   margin-top: 0;
 }
+.learning-goals {
+  margin: 0 10px 0;
+}
+.learning-goals h1 {
+  color: var(--bg);
+  align-self: flex-start;
+}
